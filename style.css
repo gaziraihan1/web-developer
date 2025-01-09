@@ -37,18 +37,21 @@ h1{
     font-weight: bold;
     text-align: center;
 }
+header h1{
+    text-align: left;
+}
 
 /* header css style */
 header{
     background-image: url(images/developer.png), url(images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
-    margin: 30px 0px;
+    background-color: #fff8f3;
 }
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 30px 200px;
+    padding: 30px 200px;
 
 }
 .contact-btn{
