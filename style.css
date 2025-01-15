@@ -278,6 +278,7 @@ footer button{
         justify-content: space-between;
         padding: 30px 20px;
     }
+    
     header .header-banner{
         flex-direction: column;
         gap: 80px;
@@ -296,12 +297,12 @@ footer button{
 
     nav h3{
         font-weight: 800;
-        font-size: 34px;
+        font-size: 24px;
     }
     
 .about-me-section{
     margin: 80px 18px;
-    padding: 50px 36px;
+    padding: 50px 26px;
     
 }
 
@@ -309,6 +310,7 @@ footer button{
     flex-direction: column;
 }
 .about-me-details div h3{
+    font-size: 15px;
     color: var(--dark-2);
     font-weight: bold;
 }
