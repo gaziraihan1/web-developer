@@ -262,3 +262,124 @@ footer button{
     width: 150px;
     margin-top: 25px;
 }
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    button{
+        padding: 9px 18px;
+        font-size: 14px;
+    }
+    p{
+        font-size: 15px;
+    }
+    nav{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px 20px;
+    }
+    header .header-banner{
+        flex-direction: column;
+        gap: 80px;
+        margin: 0px 35px 0px 20px;
+    } 
+   
+    .contact-btn{
+        color: #fd6e0a;
+        border: 1px solid #fd6e0a;
+        background: none;
+        margin-left: 25px;
+    }
+    nav ul{
+        gap: 10px;
+    }
+
+    nav h3{
+        font-weight: 800;
+        font-size: 34px;
+    }
+    
+.about-me-section{
+    margin: 80px 18px;
+    padding: 50px 36px;
+    
+}
+
+.about-me-details{
+    flex-direction: column;
+}
+.about-me-details div h3{
+    color: var(--dark-2);
+    font-weight: bold;
+}
+
+.what-i-do{
+    margin: 0 0 50px 0;
+}
+.what-i-do>p{
+    margin: 0px 20px 40px 20px;
+}
+.languages{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.languages div{
+    margin: 0 18px;
+    padding:35px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 6px;
+}
+.languages div img{
+    margin-bottom: 30px;
+}
+.languages div h4{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.languages div p{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+.summary{
+    margin: 0 18px 50px 18px;
+}
+.summary h1{
+    margin-bottom: 80px;
+}
+.summary>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+
+    footer{
+        flex-direction: column;
+        padding: 0px;
+        margin: 0 auto;
+        text-align: center;
+        gap: 80px;
+    }
+    footer div{
+     flex-basis: 100%;
+    }
+    footer div h1{
+        text-align: center;
+    }
+    footer div ul{
+        justify-content: center;
+    }
+    footer input, footer textarea{
+        margin: 10px auto;
+        width: 80%;
+        justify-content: center;
+    }
+    footer button{
+        margin-left: 36px;
+    }
+}
